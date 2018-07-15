@@ -1,5 +1,7 @@
-def EnergyMassPlot(dataset, label):
 ### Plot specific (per unit mass) static energies, as a function of pressure (mass)
+
+def EnergyMassPlot(dataset, label):
+""" Docstring: EnergyMassPlot(dataset, label) ... Needs more detail ... learn standards """
 
     ### GRAB THE DATA
     p = dataset.variables['pressure'][:]
