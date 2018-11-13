@@ -1,5 +1,6 @@
-# MSEplot
-Moist static energy plots
+# MSEplots-pkg package and its parts live here 
 
-A place to unpack the functions buried in a notebook, and package them up as proper Python code, and make the whole thing a package for PyPI. Currently it has MetPy and Siphon as dependencies. 
+Moist static energy plots (with dry static energy and saturation moist statice energy curves), [a better view of soundings](https://github.com/brianmapes/MSEplot/blob/master/StaticEnergyPlots-IWM-VI_extended_abs.pdf) in terms of seeing humidity and the prospects for moist convection. 
+
+The package for PyPI is called MSEplots-pkg. It has MetPy and Siphon as dependencies. 
 
