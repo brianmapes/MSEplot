@@ -209,15 +209,16 @@ def msed_plots(pressure,temperature,mixing_ratio,h0_std=2000,ensemble_size=20,en
         ax2.barh( pbins[1:], det_per, color='lightgrey',edgecolor='k')
         ax2.set_xlim([0,max(det_per)])
         ax2.set_ylim([1030,150])
-        ax2.set_xlabel('Detrainment [%]')
+        ax2.set_xlabel('Parceltops histo [%]')
         ax2.grid()
         ax2.set_zorder(2)
 
         ax.plot( [400,400], [1100,0])
-        ax.annotate('Detrainment', xy=(362,320), color='dimgrey')
-        ax.annotate('ensemble: ' + str(ensemble_size*len(entrainment_rates)), xy=(364, 340), color='dimgrey')
-        ax.annotate('Detrainment', xy=(362,380), color='dimgrey')
-        ax.annotate(' scale: 0 - 2 km', xy=(365,400), color='dimgrey')
+        
+#        ax.annotate('Detrainment', xy=(362,320), color='dimgrey')
+#        ax.annotate('ensemble: ' + str(ensemble_size*len(entrainment_rates)), xy=(364, 340), color='dimgrey')
+#        ax.annotate('Detrainment', xy=(362,380), color='dimgrey')
+#        ax.annotate(' scale: 0 - 2 km', xy=(365,400), color='dimgrey')
 
         # Overplots on the mess: undilute parcel and CAPE, etc.
         ax.plot( (1,1)*mse[0], (1,0)*(p[0]), color='g',linewidth=2)
