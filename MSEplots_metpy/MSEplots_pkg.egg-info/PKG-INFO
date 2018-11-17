@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: MSEplots-pkg
+Version: 1.1.10
+Summary: A package for static energy plots based on MetPy
+Home-page: https://github.com/weiming9115/Working-Space/tree/master/MSEplots_metpy
+Author: Wei-Ming Tsai
+Author-email: wxt108@rsmas.miami.edu
+License: UNKNOWN
+Description: ### MSEplots project
+        #### pip install MSEplots-pkg
+        ------
+        A package built for the MSE analysis of sounding data/ model output which provides required vertical profiles of thermodynamic parameters.
+        
+        1. Required paramters: Air temperature, Mixing ratio, Pressure, Altitude [optional]. NOT specifically for sounding data!
+        2. Functions are provided for deriving thermodynamic variables eg. potential tmeperature and static energy. All calculations included depend on the metpy.calc.thermo module.
+        (https://unidata.github.io/MetPy/latest/_modules/metpy/calc/thermo.html)
+        3. Plotting options: thermo.plots, theta.plots, and mesd_plots
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
