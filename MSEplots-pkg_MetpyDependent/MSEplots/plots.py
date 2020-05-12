@@ -168,7 +168,7 @@ def msed_plots(pressure,temperature,mixing_ratio,altitude,h0_std=2000,ensemble_s
                     ,color='green',alpha='0.3')
 
     ax.fill_betweenx(p,dse,mse,color='deepskyblue',alpha='0.5')
-    ax.set_xlabel('Specific static energies: s, h, hs [kJ kg$^{-1}$]',fontsize=14)
+    ax.set_xlabel('Specific static energies: s, h, hs (kJ kg$^{-1}$)',fontsize=14)
     ax.set_ylabel('Pressure [hPa]',fontsize=14)
     ax.set_xticks([280,300,320,340,360,380])
     ax.set_xlim([280,390])
